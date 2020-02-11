@@ -4,6 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar'
 import Projects from './components/projects'
+
 function App() {
   return (
     <div className="App">
@@ -43,9 +44,7 @@ function App() {
 
     <hr className="m-0"/>
 
-    <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
       <Projects></Projects>
-    </section>
 
     <hr className="m-0"/>
 

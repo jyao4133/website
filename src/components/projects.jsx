@@ -3,52 +3,37 @@ import React from 'react'
 import img from './../profile.jpg'
 import ReactBootstrap, {Carousel} from 'react-bootstrap'
 import { Component } from 'react'
+import Caroshow from './../js/caroshow'
 
-class projectpage extends Component{
+class projectpage extends Component{    
+  
     render(){
         return(
-        <div className=".carousel">
-       	<Carousel showarrows="true">
-            <Carousel.Item>
-                <img
-                    className=".carousel-item"
-                    src="https://picsum.photos/800/400?text=First slide&bg=373940"
-                    alt="First slide"
-                />
-                <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className=".carousel-item"
-                    src="https://picsum.photos/800/400?text=Second slide&bg=282c34"
-                    alt="Third slide"
-                />
+        <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
 
-                <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className=".carousel-item"
-                    src="https://picsum.photos/800/400?text=Third slide&bg=20232a"
-                    alt="Third slide"
-                />
+            <div className="w-100">
+                <h2 className="mb-5">Projects</h2>
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"></div>
+                        <Caroshow></Caroshow>
 
-                <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>
-        </div>
+                    </div>
+        </section>
 
         )
     }
 }
-
 export default projectpage
+// import React, { Component } from 'react';
+// import Carousel from './../../react-carousel';
+// import './../../react-carousel/lib/style.css';
+// export default class MyCarousel extends Component {
+//   render() {
+//     return (
+//       <Carousel>
+//         <img src={img} />
+//         <img src={img} />
+//         <img src={img} />
+//       </Carousel>
+//     );
+//   }
+// }

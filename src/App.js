@@ -4,7 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar'
 import Projects from './components/projects'
-
+import CV from './downloads/JasonYao-CV.pdf'
 function App() {
   return (
     <div className="App">
@@ -28,16 +28,26 @@ function App() {
         </div>
         <p className="lead mb-5">Computer Systems Engineering student at the University of Auckland graduating at the start of 2021 currently looking for a graduate role. I'm extremely keen to find my place in the world and to learn as much as I can about software development</p>
         <p className="lead mb-5">Experienced in C++, Java, Python, PHP and ReactJS.</p> 
+        <div className="lead mb-5">
+          <h2>Linkedin | Github | Twitter</h2>
         <div className="social-icons">
           <a href="https://www.linkedin.com/in/jason-yao-s">
-            <i className="fa fa-linkedin" ></i>
+            <i className="fab fa-linkedin" ></i>
           </a>
           <a href="https://github.com/tigerj2">
-            <i className="fa fa-github"></i>
+            <i className="fab fa-github"></i>
           </a>
           <a href="#">
-            <i className="fa fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </a>
+        </div>
+        </div>
+        <div className="m-0">
+        <h2>My Resume</h2>
+        
+        <a href={CV} download="JasonYao-CV.pdf"> <button className="mem">Download CV</button></a>
+        
+        
         </div>
       </div>
     </section>

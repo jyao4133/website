@@ -30,11 +30,26 @@ h7{
     font-weight: 700;
     text-transform: uppercase;
     color: #000000;
-    font-size: 4rem;
+    font-size: 2.5rem;
     line-height: 5.5rem;
     text-align: center;
     position: sticky;
 }
+.response-carousel {
+    padding: 20px;
+  }
+  
+@media screen and (min-width: 601px) {
+    .response-carousel {
+      font-size: 8px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .response-carousel {
+      font-size: 3px;
+    }
+  }
 p{
     color: #000000;
     font-size: 1.2rem;
@@ -63,6 +78,25 @@ p.lead {
 .social-icons a: last-child {
     margin-right: 0}
 .social-icons a:hover {
+    background-color: #bd5d38}
+.caro-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #25588b;
+    color: #fff!important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.caro-icons a: last-child {
+    margin-right: 0}
+.caro-icons a:hover {
     background-color: #bd5d38}
 .dev-icons {
     font-size: 3rem}

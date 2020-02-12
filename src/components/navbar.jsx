@@ -24,8 +24,6 @@ class Navbars extends Component{
                     <Nav className="mr-auto">
                     <Nav.Link href="#about">About</Nav.Link>
                     <Nav.Link href="#projects">Projects</Nav.Link>
-                    <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={img} alt=""/>
-
                     </Nav>
 
                 </Navbar.Collapse>

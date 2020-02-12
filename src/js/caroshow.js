@@ -20,9 +20,10 @@ function ControlledCarousel() {
       setDirection(e.direction);
     };
   
-    return (
+    return (       
+
       <Carousel onSelect={handleSelect} >
-      
+
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -123,7 +124,9 @@ function ControlledCarousel() {
                 </ul>
                 <p>Quartus 2 Simulator | VHDL</p>
         </Carousel.Item>
+
       </Carousel>
+
     );
   }
 export default ControlledCarousel

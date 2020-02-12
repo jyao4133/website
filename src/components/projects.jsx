@@ -13,8 +13,12 @@ class projectpage extends Component{
 
             <div className="w-100">
                 <h1 className="mb-5">Projects</h1>
-                
-                        <Caroshow></Caroshow>
+                        <Caroshow>
+
+
+                        </Caroshow>
+                        <ol className="carousel-indicators">
+                        </ol>
                     </div>
         </section>
 

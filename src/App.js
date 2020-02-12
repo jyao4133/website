@@ -93,7 +93,6 @@ function App() {
     {/* <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div className="w-100">
         <h2 className="mb-5">Skills</h2>
-
         <div className="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul className="list-inline dev-icons">
           <li className="list-inline-item">
@@ -133,7 +132,6 @@ function App() {
             <i className="fa fa-npm"></i>
           </li>
         </ul>
-
         <div className="subheading mb-3">Workflow</div>
         <ul className="fa-ul mb-0">
           <li>
@@ -151,9 +149,7 @@ function App() {
         </ul>
       </div>
     </section>
-
     <hr className="m-0"/>
-
     <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div className="w-100">
         <h2 className="mb-5">Interests</h2>
@@ -161,9 +157,7 @@ function App() {
         <p className="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
       </div>
     </section>
-
     <hr className="m-0"/>
-
     <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
       <div className="w-100">
         <h2 className="mb-5">Awards &amp; Certifications</h2>

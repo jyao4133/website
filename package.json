@@ -2,7 +2,6 @@
   "name": "dev-site",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://localhost:3001",
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.10.62",
     "@fortawesome/fontawesome-free": "^5.12.1",

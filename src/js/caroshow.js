@@ -1,11 +1,12 @@
 import React from 'react'
 import img from './../profile.jpg'
-import bird from './../twitterbird.png'
+import bird from './../images/twitterbird.png'
 import Flappy from './../flapbird.png'
-import teddy from './../teddygame.png'
+import teddy from './../images/teddygame.png'
 import Swing from './../swing.png'
 import Quartus from './../quartus.png'
 import VHDL from './../images/vhdl.png'
+import Cherry from './../images/cherry.png'
 import ReactBootstrap, {Carousel} from 'react-bootstrap'
 import { Component } from 'react'
 import javagame from './../downloads/Finding_Teddy.jar'
@@ -54,7 +55,7 @@ function ControlledCarousel() {
                 <i className="fab fa-java"></i>
               </li>
               <li className="list-inline-item">
-                <img src={Swing} style={{width: 80, height: 80}}></img>
+                <img src={Swing} style={{width: 60, height: 60}}></img>
               </li>
             </ul>
             <p>Java | Java Swing</p>
@@ -88,8 +89,11 @@ function ControlledCarousel() {
                     <i className="fab fa-css3"></i>
                   </li>
                   <li className="list-inline-item">
-                    <i className="fas fa-flask"></i>
-                  </li>
+                    <i className="fab fa-js"></i>
+                  </li>              
+                  <li className="list-inline-item">
+                  <img src={Cherry} style={{width: 60, height: 60}}></img>
+              </li>
                 </ul>
                 <p>Python | HTML | CSS | Flask/Jinja</p>
 
@@ -111,15 +115,15 @@ function ControlledCarousel() {
                 </div>
                 <p>Flappy bird clone created in VHDL. Uses an Altera DE0 board for GPIO/Connector pins for input/output. The game is played using a PS2 connection mouse.</p>
                 <p>Click the Github icon for the source files.</p>
-                <h4>The source files cannot be run unless you flash the HDL files onto an Altera DE0 board and connect the board VIA VGA cable to a computer screen</h4>
+                <h4>The source files cannot be run unless you flash the HDL files onto an Altera DE0 board</h4>
                 <h7 className="mb-5">Languages used in this project</h7>
 
                 <ul className="list-inline dev-icons">
                   <li className="list-inline-item">
-                    <img src={Quartus} style={{width: 80, height: 80}}></img>
+                    <img src={Quartus} style={{width: 60, height: 60}}></img>
                   </li>
                   <li className="list-inline-item">
-                    <img src={VHDL} style={{width: 80, height: 80}}></img>
+                    <img src={VHDL} style={{width: 60, height: 60}}></img>
                   </li>
                 </ul>
                 <p>Quartus 2 Simulator | VHDL</p>

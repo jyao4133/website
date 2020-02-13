@@ -9,18 +9,20 @@ class projectpage extends Component{
   
     render(){
         return(
-        <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
-
+            <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+        
             <div className="w-100">
                 <h1 className="mb-5">Projects</h1>
+
                         <Caroshow>
 
 
                         </Caroshow>
                         <ol className="carousel-indicators">
                         </ol>
-                    </div>
-        </section>
+                      
+            </div>
+            </section>
 
         )
     }

@@ -51,7 +51,7 @@ class sub extends React.Component{
 
 
 	<div className="App">
-	<form action="https://mailthis.to/tigerj20" method="POST" encType="multipart/form-data">
+	<form action="https://mailthis.to/marcburgerss@gmail.com" method="POST" encType="multipart/form-data">
 	<div className="form-group">
 		<label htmlFor="name">Name</label>
 	<input type="text" className="form-control" name="name" placeholder="Your name"/>

@@ -1,5 +1,4 @@
 import React from 'react'
-import img from './../profile.jpg'
 import bird from './../images/twitterbird.png'
 import Flappy from './../flapbird.png'
 import teddy from './../images/teddygame.png'
@@ -8,7 +7,6 @@ import Quartus from './../quartus.png'
 import VHDL from './../images/vhdl.png'
 import Cherry from './../images/cherry.png'
 import ReactBootstrap, {Carousel} from 'react-bootstrap'
-import { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ControlledCarousel() {

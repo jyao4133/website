@@ -1,7 +1,5 @@
 
 import React from 'react'
-import img from './../profile.jpg'
-import ReactBootstrap, {Carousel} from 'react-bootstrap'
 import { Component } from 'react'
 import Caroshow from './../js/caroshow'
 

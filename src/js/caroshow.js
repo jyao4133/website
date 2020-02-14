@@ -6,21 +6,14 @@ import Swing from './../swing.png'
 import Quartus from './../quartus.png'
 import VHDL from './../images/vhdl.png'
 import Cherry from './../images/cherry.png'
-import ReactBootstrap, {Carousel} from 'react-bootstrap'
+import {Carousel} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ControlledCarousel() {
-    const [index, setIndex] = React.useState(0);
-    const [direction, setDirection] = React.useState(null);
-  
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-      setDirection(e.direction);
-    };
-  
+
     return (       
 
-      <Carousel onSelect={handleSelect} >
+      <Carousel nextIcon={<span aria-hidden="false" className="carousel-indicators" />}>
 
         <Carousel.Item>
           <img
@@ -29,7 +22,7 @@ function ControlledCarousel() {
             alt="First slide"
           />
 
-            <h7 align="middle">Zelda Clone</h7>
+            <h6 align="left">Zelda Clone</h6>
 
                 <div className="caro-icons" align="middle">
                   <a href="https://github.com/tigerj2/Zelda-Clone">
@@ -45,14 +38,14 @@ function ControlledCarousel() {
             <p>        Click the Github icon for the source files. 
               To play the game, click the hard drive icon to download the jar and run java -jar Finding_teddy.jar" if you're running Ubuntu, otherwise double click the Finding_teddy.jar file</p>
             <h4>I do not recommend playing this on a virtual machine as it will be extremely slow</h4>
-            <h7 className="mb-5">Software used in this project</h7>
+            <h6 className="mb-5">Software used in this project</h6>
 
             <ul className="list-inline dev-icons">
               <li className="list-inline-item">
                 <i className="fab fa-java"></i>
               </li>
               <li className="list-inline-item">
-                <img src={Swing} style={{width: 60, height: 60}}></img>
+                <img src={Swing} style={{width: 60, height: 60}} alt=""></img>
               </li>
             </ul>
             <p>Java | Java Swing</p>
@@ -64,7 +57,7 @@ function ControlledCarousel() {
             alt="Second slide"
           />
   
-                <h7>Twitter Clone</h7>
+                <h6>Twitter Clone</h6>
                 <div className="caro-icons" align="middle">
                   <a href="https://github.com/tigerj2/Python-Cherrypy-TwitterClone">
                     <i className="fab fa-github" ></i>
@@ -73,7 +66,7 @@ function ControlledCarousel() {
                 <p>A Twitter clone which allows private messaging among a group of friends when a central server is hosted. Leverages SQLite databases, the Cherrypy Python library and other API's.</p>
                 <p>Click the Github icon for the source files.</p>
                 <h4>The source files cannot be run as of the moment as there is no server to connect the app to</h4>
-                <h7 className="mb-5">Software used in this project</h7>
+                <h6 className="mb-5">Software used in this project</h6>
 
                 <ul className="list-inline dev-icons">
                   <li className="list-inline-item">
@@ -89,7 +82,7 @@ function ControlledCarousel() {
                     <i className="fab fa-js"></i>
                   </li>              
                   <li className="list-inline-item">
-                  <img src={Cherry} style={{width: 60, height: 60}}></img>
+                  <img src={Cherry} style={{width: 60, height: 60}} alt=""></img>
               </li>
                 </ul>
                 <p>Python | HTML | CSS | Flask/Jinja</p>
@@ -103,7 +96,7 @@ function ControlledCarousel() {
             alt="Third slide"
           />
   
-            <h7>FlappyBird Clone</h7>
+            <h6>FlappyBird Clone</h6>
 
             <div className="caro-icons" align="middle">
                   <a href="https://github.com/tigerj2/cs305_flappybird">
@@ -113,14 +106,14 @@ function ControlledCarousel() {
                 <p>Flappy bird clone created in VHDL. Uses an Altera DE0 board for GPIO/Connector pins for input/output. The game is played using a PS2 connection mouse.</p>
                 <p>Click the Github icon for the source files.</p>
                 <h4>The source files cannot be run unless you flash the HDL files onto an Altera DE0 board</h4>
-                <h7 className="mb-5">Languages used in this project</h7>
+                <h6 className="mb-5">Languages used in this project</h6>
 
                 <ul className="list-inline dev-icons">
                   <li className="list-inline-item">
-                    <img src={Quartus} style={{width: 60, height: 60}}></img>
+                    <img src={Quartus} style={{width: 60, height: 60}} alt=""></img>
                   </li>
                   <li className="list-inline-item">
-                    <img src={VHDL} style={{width: 60, height: 60}}></img>
+                    <img src={VHDL} style={{width: 60, height: 60}} alt=""></img>
                   </li>
                 </ul>
                 <p>Quartus 2 Simulator | VHDL</p>

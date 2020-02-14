@@ -1,6 +1,6 @@
 import React from 'react'
 import img from './../profile.jpg'
-import ReactBootstrap, {FormControl, Form, NavDropdown,Nav, Navbar, Button, Col, Grid, Panel, FormGroup} from 'react-bootstrap'
+import {Nav, Navbar} from 'react-bootstrap'
 import { Component } from 'react'
 
 class Navbars extends Component{
@@ -14,7 +14,7 @@ class Navbars extends Component{
             </span>
             </a>
             
-            <button className="navbar-toggler" type="button" >
+            <div className="navbar-toggler" type="button" >
 
 
                 <Navbar bg="dark" >
@@ -29,7 +29,7 @@ class Navbars extends Component{
 
                 </Navbar.Collapse>
                 </Navbar>
-            </button>
+            </div>
             
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav">

@@ -64,7 +64,7 @@ class sub extends React.Component{
 		<label htmlFor="message">Message</label>
 		<textarea className="form-control" name="message" rows="5" placeholder="Enter your message here"></textarea>
 	</div>
-	<input type="hidden" name="_after" value="http://localhost:3000/"/>
+	<input type="hidden" name="_after" value="http://tigerj2.herokuapp.com/"/>
 
 	<button type="submit" className="btn btn-primary">Submit</button>
 	</form>

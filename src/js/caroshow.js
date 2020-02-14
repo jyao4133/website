@@ -9,7 +9,6 @@ import VHDL from './../images/vhdl.png'
 import Cherry from './../images/cherry.png'
 import ReactBootstrap, {Carousel} from 'react-bootstrap'
 import { Component } from 'react'
-import javagame from './../downloads/Finding_Teddy.jar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ControlledCarousel() {
@@ -40,7 +39,7 @@ function ControlledCarousel() {
 
 
                   </a>
-                  <a href={javagame} download="Finding_teddy.jar"> 
+                  <a href={Swing} download="Finding_teddy.jar"> 
                   <i className="fa fa-download" ></i>
                    </a>
                 </div>

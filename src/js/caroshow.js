@@ -13,7 +13,7 @@ function ControlledCarousel() {
 
     return (       
 
-      <Carousel nextIcon={<span aria-hidden="false" className="carousel-indicators" />}>
+      <Carousel >
 
         <Carousel.Item>
           <img
@@ -30,7 +30,7 @@ function ControlledCarousel() {
 
 
                   </a>
-                  <a href={Swing} download="Finding_teddy.jar"> 
+                  <a href="https://drive.google.com/file/d/1paxx381L13gVkC8nqWFKrn8UbbYrwzhH/view?usp=sharing"> 
                   <i className="fa fa-download" ></i>
                    </a>
                 </div>

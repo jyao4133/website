@@ -23,7 +23,7 @@ function App() {
             <a href="mailto:name@email.com"> jasonyao58246@gmail.com</a>
           </div>
           <p className="lead mb-5">Computer Systems Engineering student at the University of Auckland graduating at the start of 2021 currently looking for a graduate role. I'm extremely keen to find my place in the world and to learn as much as I can about software development with you!</p>
-          <p className="lead mb-5">Experienced in C++, Java, Python, PHP and ReactJS.</p> 
+          <p className="lead mb-5">Experienced in C++, Java, Python, PHP, CSS, HTML and ReactJS.</p> 
           <div className="lead mb-5">
             <h2>Linkedin | Github | Twitter</h2>
           <div className="social-icons">

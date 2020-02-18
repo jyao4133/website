@@ -30,24 +30,6 @@ class sub extends React.Component{
   
   render() {
 	return(
-  	// <div className="App">
-  	// <form action="https://mailthis.to/tigerj20" method="POST" encType="multipart/form-data">
-  	// <div className="form-group">
-    //   	<label htmlFor="name">Name</label>
-    //   	<input type="text" className="form-control" id="name"/>
-  	// </div>
-  	// <div className="form-group">
-    //   	<label htmlFor="exampleInputEmail1">Email address</label>
-    //   	<input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
-  	// </div>
-  	// <div className="form-group">
-    //   	<label htmlFor="message">Message</label>
-    //   	<textarea className="form-control" rows="5" id="message" />
-  	// </div>
-  	// <button type="submit" className="btn btn-primary">Submit</button>
-  	// </form>
-  	// </div>
-
 
 	<div className="App">
 	<form action="https://mailthis.to/jyao413@aucklanduni.ac.nz" method="POST" encType="multipart/form-data">
@@ -65,7 +47,7 @@ class sub extends React.Component{
 	</div>
 	<input type="hidden" name="_after" value="http://tigerj2.herokuapp.com/"/>
 
-	<button type="submit" className="btn btn-primary">Submit</button>
+	<button type="submit" className="mem">Submit</button>
 	</form>
 	</div>
 	);

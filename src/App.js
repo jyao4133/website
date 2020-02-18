@@ -51,7 +51,7 @@ function App() {
             <Projects></Projects>
 
 
-      <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="Contactme">
+      <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="contactme">
         <div className="w-100">
           <h1 className="mb-5">Contact me</h1>
           <div className="lead mb-5">

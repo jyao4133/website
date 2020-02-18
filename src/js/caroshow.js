@@ -22,7 +22,7 @@ function ControlledCarousel() {
             alt="First slide"
           />
 
-            <h6 align="left">Zelda Clone</h6>
+            <h2>Zelda Clone</h2>
 
                 <div className="caro-icons" align="middle">
                   <a href="https://github.com/tigerj2/Zelda-Clone">
@@ -57,7 +57,7 @@ function ControlledCarousel() {
             alt="Second slide"
           />
   
-                <h6>Twitter Clone</h6>
+                <h2>Twitter Clone</h2>
                 <div className="caro-icons" align="middle">
                   <a href="https://github.com/tigerj2/Python-Cherrypy-TwitterClone">
                     <i className="fab fa-github" ></i>
@@ -96,7 +96,7 @@ function ControlledCarousel() {
             alt="Third slide"
           />
   
-            <h6>FlappyBird Clone</h6>
+            <h2>FlappyBird Clone</h2>
 
             <div className="caro-icons" align="middle">
                   <a href="https://github.com/tigerj2/cs305_flappybird">

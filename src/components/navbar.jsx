@@ -23,7 +23,7 @@ class Navbars extends Component{
                     <Nav className="mr-auto">
                     <Nav.Link href="#about">About</Nav.Link>
                     <Nav.Link href="#projects">Projects</Nav.Link>
-                    <Nav.Link href="#Contactme">Contact</Nav.Link>
+                    <Nav.Link href="#contactme">Contact</Nav.Link>
 
                     </Nav>
 

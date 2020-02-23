@@ -37,8 +37,8 @@ function ControlledCarousel() {
             <p>Clone of the original "Legend of Zelda", written in Java utilising the Swing library. </p>
             <p>        Click the Github icon for the source files. 
               To play the game, click the hard drive icon to download the jar and run java -jar Finding_teddy.jar" if you're running Ubuntu, otherwise double click the Finding_teddy.jar file</p>
-            <h4>I do not recommend playing this on a virtual machine as it will be extremely slow</h4>
-            <h6 className="mb-5">Software used in this project</h6>
+            <h4>*I do not recommend playing this on a virtual machine</h4>
+            <h6 className="mb-5">Software used</h6>
 
             <ul className="list-inline dev-icons">
               <li className="list-inline-item">
@@ -65,8 +65,8 @@ function ControlledCarousel() {
                 </div>
                 <p>A Twitter clone which allows private messaging among a group of friends when a central server is hosted. Leverages SQLite databases, the Cherrypy Python library and other API's.</p>
                 <p>Click the Github icon for the source files.</p>
-                <h4>The source files cannot be run as of the moment as there is no server to connect the app to</h4>
-                <h6 className="mb-5">Software used in this project</h6>
+                <h4>Login is only available to students</h4>
+                <h6 className="mb-5">Software used</h6>
 
                 <ul className="list-inline dev-icons">
                   <li className="list-inline-item">
@@ -103,10 +103,10 @@ function ControlledCarousel() {
                     <i className="fab fa-github" ></i>
                   </a>
                 </div>
-                <p>Flappy bird clone created in VHDL. Uses an Altera DE0 board for GPIO/Connector pins for input/output. The game is played using a PS2 connection mouse.</p>
+                <p>Flappy bird clone created in VHDL. Uses an Altera DE0 board for input/output. The game is played using a PS2 connection mouse.</p>
                 <p>Click the Github icon for the source files.</p>
                 <h4>The source files cannot be run unless you flash the HDL files onto an Altera DE0 board</h4>
-                <h6 className="mb-5">Languages used in this project</h6>
+                <h6 className="mb-5">Software used</h6>
 
                 <ul className="list-inline dev-icons">
                   <li className="list-inline-item">
